@@ -1,6 +1,6 @@
 import sys
 from collections import defaultdict
-from copy import copy, deepcopy
+from copy import deepcopy
 
 board = []
 players = []
