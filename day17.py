@@ -38,11 +38,11 @@ for line in open(sys.argv[1]):
 # #
 underground = []
 
-for line in open(sys.argv[1]):
-    row = []
-    for c in line.strip():
-        row.append(c)
-    underground.append(row)
+# for line in open(sys.argv[1]):
+#     row = []
+#     for c in line.strip():
+#         row.append(c)
+#     underground.append(row)
 
 for clay in clay_coord:
     if clay[0] < min_x:
@@ -141,37 +141,3 @@ for x in range(len(underground)):
 
 #print_grid()
 print(count)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# asdf
