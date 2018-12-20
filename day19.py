@@ -1,6 +1,5 @@
 import sys
 
-
 ip = 0
 instructions = []
 for line in open(sys.argv[1]):
